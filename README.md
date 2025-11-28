@@ -81,20 +81,3 @@ Também foram geradas:
 - **Curva ROC** com o valor de AUC destacado
 
 Essas imagens estão na pasta `figures/` e são usadas no relatório em PDF.
-
----
-
-## 📁 Estrutura sugerida do repositório
-
-```bash
-.
-├── data/
-│   └── Telemedicine_Use.csv          # Dataset original do CDC
-├── notebooks/
-│   └── challenge_telemedicina.ipynb  # Notebook com todo o fluxo (EDA + modelo)
-├── figures/
-│   ├── hist_pct_telehealth.png       # Histograma do percentual de telemedicina
-│   ├── distrib_alta_adocao.png       # Distribuição da variável alvo
-│   ├── matriz_confusao.png           # Matriz de confusão do modelo
-│   └── roc_curve.png                 # Curva ROC com AUC
-└── README.md
